@@ -1,0 +1,29 @@
+package aplicacao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import dominio.Pessoa;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa(0, "Alessandro Pericles", "aaaaaaa@gmail.com");
+		Pessoa p2 = new Pessoa(0, "Patricia Vieira", "bbbbbbb@gmail.com");
+		Pessoa p3 = new Pessoa(0, "Patrick Pericles", "ccccc@gmail.com");
+		
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("connection_postgreSQL");
+		EntityManager em = factory.createEntityManager();
+		
+		em.persist(p1);
+		em.persist(p2);
+		em.persist(p3);
+		
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
+	}
+
+}

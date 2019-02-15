@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+E:\Curso Online\ws\.metadata\.plugins\org.eclipse.jdt.core
+472981677.index
+1236078764.index
+1883441041.index
+2439488146.index
+1145678495.index
+272822043.index
+4199673133.index
+2125902172.index
+373053972.index
+3218282703.index
+2652343847.index
+25682592.index
+118291746.index
+4049982813.index
+1004660258.index
