@@ -7,5 +7,5 @@ import com.alessandro.cursomc.domain.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{
-
+//	Esse INTEGER aqui no paramentro significa a chave da tabela.
 }

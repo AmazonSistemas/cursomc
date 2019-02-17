@@ -1,0 +1,10 @@
+package com.alessandro.cursomc.domain;
+
+public class Produtp {
+	
+	private Integer id;
+	private String nome;
+	private Double preco;
+	
+
+}

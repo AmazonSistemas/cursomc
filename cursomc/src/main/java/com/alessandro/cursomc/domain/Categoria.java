@@ -1,12 +1,15 @@
 package com.alessandro.cursomc.domain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -20,6 +23,10 @@ public class Categoria implements Serializable{
 	@Column(name="i_categoria")
 	private Integer id;
 	private String nome;
+	
+	@ManyToMany(mappedBy="categorias")  //Basta fazer apenas em um lado, e aqui apontar para o atributo de PRODUTO "categorias" 
+	private List<Produto> produtos = new ArrayList<>();//Categoria tem varios produtos e o nome "produtos" tem que ser igual ao da documentacao UML
+	
 	public Categoria() {
 		
 	}
@@ -52,6 +59,13 @@ public class Categoria implements Serializable{
 			return false;
 		return true;
 	}
+	public List<Produto> getProdutos() {
+		return produtos;
+	}
+	public void setProdutos(List<Produto> produtos) {
+		this.produtos = produtos;
+	}
+	
 	public Integer getId() {
 		return id;
 	}
