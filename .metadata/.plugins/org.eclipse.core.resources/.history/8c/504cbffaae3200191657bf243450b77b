@@ -1,0 +1,5 @@
+package com.alessandro.cursomc.resources.exception;
+
+public class ResouceExceptionHandler {
+
+}

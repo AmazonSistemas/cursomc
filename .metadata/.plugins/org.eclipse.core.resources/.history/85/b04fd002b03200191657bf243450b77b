@@ -1,0 +1,16 @@
+package com.alessandro.cursomc.resources.exception;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+import com.alessandro.cursomc.service.exceptions.ObjectNotFoundException;
+
+@ControllerAdvice
+public class ResouceExceptionHandler {
+
+	public ResponseEntity<StandarError> objectNotFound(ObjectNotFoundException e, HttpServletRequest request){
+		
+	}
+}

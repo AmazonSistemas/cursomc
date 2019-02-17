@@ -1,0 +1,5 @@
+package com.alessandro.cursomc.service.exceptions;
+
+public class ObjectNotFoundException {
+
+}

@@ -29,7 +29,7 @@ public class Produto implements Serializable{
 	private Double preco;
 	
 //De MUITOS para MUITOS	
-	@JsonBackReference  //Do outro lado da associacao ja foram buscado os objetos
+	@JsonBackReference
 	@ManyToMany
 	@JoinTable(name = "produto_categoria", 
 	   joinColumns = @JoinColumn(name = "i_produto"),
