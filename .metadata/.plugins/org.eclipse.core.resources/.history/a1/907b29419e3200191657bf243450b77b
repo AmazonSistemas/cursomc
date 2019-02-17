@@ -1,0 +1,5 @@
+package com.alessandro.cursomc.service;
+
+public class CategoriaService {
+
+}

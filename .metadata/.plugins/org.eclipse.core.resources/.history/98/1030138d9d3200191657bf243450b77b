@@ -1,0 +1,5 @@
+package com.alessandro.cursomc.repositories;
+
+public class CategoriaRepository {
+
+}
