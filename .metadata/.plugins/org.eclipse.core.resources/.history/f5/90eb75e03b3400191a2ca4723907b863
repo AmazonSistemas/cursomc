@@ -1,0 +1,11 @@
+package com.alessandro.cursomc.domain;
+
+public class Cliente {
+
+	private Integer id;
+	private String nome;
+	private String email;
+	private String cpfCnpj;
+	private TipoCliente tipoCliente;
+	
+}

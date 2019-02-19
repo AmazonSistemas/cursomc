@@ -9,10 +9,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.alessandro.cursomc.domain.Categoria;
 import com.alessandro.cursomc.domain.Cidade;
+import com.alessandro.cursomc.domain.Cliente;
+import com.alessandro.cursomc.domain.Endereco;
 import com.alessandro.cursomc.domain.Estado;
 import com.alessandro.cursomc.domain.Produto;
+import com.alessandro.cursomc.domain.enums.TipoCliente;
 import com.alessandro.cursomc.repositories.CategoriaRepository;
 import com.alessandro.cursomc.repositories.CidadeRepository;
+import com.alessandro.cursomc.repositories.ClienteRepository;
+import com.alessandro.cursomc.repositories.EnderecoRepository;
 import com.alessandro.cursomc.repositories.EstadoRepository;
 import com.alessandro.cursomc.repositories.ProdutoRepository;
 
@@ -27,6 +32,10 @@ public class CursomcApplication implements CommandLineRunner{
 	private CidadeRepository cidadeRepository;
 	@Autowired
 	private EstadoRepository estadoRepository;
+	@Autowired
+	private EnderecoRepository enderecoRepository;
+	@Autowired
+	private ClienteRepository clienteRepository;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CursomcApplication.class, args);
@@ -65,6 +74,20 @@ public class CursomcApplication implements CommandLineRunner{
 		//A ordem cronologica o ESTADO tem que gravar primeiro
 		estadoRepository.saveAll(Arrays.asList(est1, est2));
 		cidadeRepository.saveAll(Arrays.asList(c1, c2, c3));
+		
+		
+		Cliente cli1 = new Cliente(null, "Maria", "maria@gmail.com", "111111111", TipoCliente.PESSOAFISICA);
+		cli1.getTelefones().addAll(Arrays.asList("111111", "2222222222"));
+		
+		
+		Endereco e1 = new Endereco(null, "Rua Floroes", "5555", "Casa 1", "Centro", "25.845-00", cli1, c1);
+		Endereco e2 = new Endereco(null, "Rua Monica Quintela", "255", "Blo1 Apto 103", "Centro", "25.845-00", cli1, c2);
+		cli1.getEnderecos().addAll(Arrays.asList(e1, e2));
+		
+		
+		clienteRepository.saveAll(Arrays.asList(cli1));
+		enderecoRepository.saveAll(Arrays.asList(e1, e2));
+		
 	}
 
 }

@@ -1,0 +1,25 @@
+package com.alessandro.cursomc.domain;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.alessandro.cursomc.domain.enums.TipoCliente;
+
+@Entity
+@Table(name="cliente")
+public class Cliente {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="i_cliente")
+	private Integer id;
+	private String nome;
+	private String email;
+	private String cpfCnpj;
+	private TipoCliente tipoCliente;
+	
+}

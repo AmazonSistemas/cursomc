@@ -1,0 +1,14 @@
+package com.alessandro.cursomc.domain;
+
+import java.io.Serializable;
+
+public class Endereco implements Serializable{
+
+	private Integer id;
+	private String logradou;
+	private String numero;
+	private String complemento;
+	private String bairro;
+	private String cep;
+	
+}
