@@ -1,0 +1,14 @@
+package com.alessandro.cursomc.domain;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Estado implements Serializable{
+	
+	private Integer id;
+	private String nome;
+	private List<Cidade> cidades = new ArrayList<>();
+	
+
+}

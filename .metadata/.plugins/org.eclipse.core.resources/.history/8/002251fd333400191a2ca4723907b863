@@ -1,0 +1,10 @@
+package com.alessandro.cursomc.domain;
+
+import java.io.Serializable;
+
+public class Cidade implements Serializable{
+	
+	private Integer id;
+	private String nome;
+
+}
