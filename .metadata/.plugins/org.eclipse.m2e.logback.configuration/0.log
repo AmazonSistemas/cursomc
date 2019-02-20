@@ -2462,3 +2462,293 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.postgresq
 2019-02-19 08:24:38,975 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-02-19 08:24:38,977 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-02-19 08:24:38,977 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:30:05,217 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:30:05,218 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:30:05,220 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:30:05,221 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:30:05,222 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:36:14,331 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:36:14,332 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:36:14,334 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:36:14,336 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:36:14,336 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:36:35,428 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:36:35,429 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:36:35,430 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:36:35,452 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:36:35,452 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:38:23,977 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:38:23,978 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:38:23,979 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:38:23,980 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:38:23,980 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:40:16,232 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:40:16,233 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:40:16,235 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:40:16,236 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:40:16,236 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:40:23,742 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:40:23,743 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:40:23,744 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:40:23,746 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:40:23,746 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:41:00,728 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:41:00,729 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:41:00,730 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:41:00,732 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:41:00,732 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:42:33,795 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:42:33,796 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:42:33,797 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:42:33,799 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:42:33,799 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:44:08,832 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:44:08,833 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:44:08,835 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:44:08,837 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:44:08,837 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:44:56,359 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:44:56,359 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:44:56,360 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:44:56,362 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:44:56,362 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:45:38,671 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:38,672 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:45:38,673 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:45:38,675 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:38,675 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:45:42,254 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:42,255 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:45:42,256 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:45:42,257 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:42,258 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:45:48,757 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:48,758 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:45:48,760 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:45:48,761 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:48,762 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:45:59,557 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:59,558 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:45:59,559 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:45:59,561 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:45:59,561 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:46:10,321 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:46:10,321 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:46:10,322 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:46:10,324 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:46:10,324 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:46:19,624 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:46:19,624 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:46:19,626 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:46:19,627 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:46:19,627 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:47:04,445 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:47:04,445 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:47:04,446 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:47:04,447 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:47:04,447 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:47:51,551 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:47:51,551 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:47:51,552 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:47:51,554 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:47:51,554 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:48:25,129 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:48:25,130 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:48:25,131 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:48:25,133 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:48:25,133 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:48:39,769 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:48:39,769 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:48:39,771 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:48:39,772 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:48:39,772 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:48:53,574 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:48:53,575 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:48:53,576 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:48:53,578 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:48:53,578 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:49:07,007 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:49:07,007 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:49:07,009 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:49:07,010 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:49:07,010 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:49:48,373 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:49:48,373 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:49:48,374 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:49:48,376 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:49:48,376 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:50:10,228 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:50:10,229 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:50:10,230 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:50:10,232 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:50:10,232 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:50:35,716 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:50:35,718 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:50:35,720 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:50:35,722 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:50:35,722 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:50:55,478 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:50:55,479 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:50:55,480 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:50:55,481 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:50:55,481 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:51:48,357 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:51:48,357 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:51:48,358 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:51:48,360 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:51:48,360 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:52:07,083 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:52:07,084 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:52:07,085 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:52:07,086 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:52:07,086 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:54:51,365 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:54:51,366 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:54:51,369 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:54:51,372 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:54:51,372 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:55:54,361 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:55:54,362 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:55:54,363 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:55:54,365 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:55:54,365 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:56:08,448 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:56:08,448 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:56:08,448 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:56:08,450 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:56:08,450 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:58:32,947 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:58:32,947 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:58:32,948 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:58:32,950 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:58:32,950 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:58:59,462 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:58:59,463 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:58:59,464 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:58:59,466 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:58:59,466 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 08:59:19,067 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:59:19,067 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 08:59:19,069 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 08:59:19,070 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 08:59:19,070 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:00:11,492 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:00:11,493 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:00:11,494 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:00:11,495 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:00:11,495 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:00:16,751 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:00:16,752 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:00:16,753 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:00:16,754 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:00:16,754 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:02:05,576 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:02:05,577 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:02:05,578 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:02:05,580 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:02:05,580 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:02:26,577 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:02:26,578 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:02:26,580 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:02:26,582 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:02:26,582 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:05:19,323 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:19,324 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:05:19,325 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:05:19,326 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:19,326 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:05:32,872 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:32,873 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:05:32,875 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:05:32,876 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:32,876 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:05:43,050 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:43,050 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:05:43,052 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:05:43,053 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:43,054 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:05:55,795 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:55,796 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:05:55,797 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:05:55,798 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:05:55,798 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:08:37,941 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:08:37,942 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:08:37,943 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:08:37,945 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:08:37,945 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:08:56,074 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:08:56,075 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:08:56,076 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:08:56,077 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:08:56,077 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:09:15,324 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:09:15,325 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:09:15,326 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:09:15,328 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:09:15,329 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:11:01,708 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:11:01,708 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:11:01,709 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:11:01,711 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:11:01,711 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:15:03,303 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:15:03,303 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:15:03,304 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:15:03,306 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:15:03,306 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:15:42,415 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:15:42,415 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:15:42,416 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:15:42,418 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:15:42,418 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:17:04,710 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:17:04,711 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:17:04,712 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:17:04,714 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:17:04,714 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:19:23,101 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:19:23,102 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:19:23,104 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:19:23,106 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:19:23,106 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:20:27,075 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:20:27,076 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:20:27,078 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:20:27,085 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:20:27,085 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:21:16,787 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:21:16,788 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:21:16,789 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:21:16,790 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:21:16,791 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:23:06,423 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:23:06,424 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:23:06,425 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:23:06,427 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:23:06,427 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:24:31,611 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:24:31,612 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:24:31,614 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:24:31,615 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:24:31,615 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:25:49,321 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:25:49,322 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:25:49,324 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:25:49,325 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:25:49,325 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:27:05,508 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:27:05,508 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:27:05,510 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:27:05,511 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:27:05,511 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:27:41,462 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:27:41,463 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:27:41,464 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:27:41,466 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:27:41,466 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources
+2019-02-19 09:28:06,177 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:28:06,178 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-19 09:28:06,180 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-19 09:28:06,182 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-19 09:28:06,182 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curso Online\ws\cursomc\src\test\resources

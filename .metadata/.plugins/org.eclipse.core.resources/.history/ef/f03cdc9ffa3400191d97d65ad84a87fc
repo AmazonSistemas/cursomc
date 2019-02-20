@@ -34,7 +34,7 @@ public class Cliente implements Serializable{
 	private String cpfCnpj;
 	private Integer tipoCliente;
 
-	@JsonManagedReference  // Serializando os endereços para o ENDPOINT(ja no outro lado NÃO pode serializar o cliente)
+	@JsonManagedReference  // Serializando os endereços para o ENDPOINT
 	@OneToMany(mappedBy="cliente") //Um para muitos, que foi mapeado em ENDERECO pelo atributo "cliente"
 	public List<Endereco> enderecos = new ArrayList<Endereco>();
 	

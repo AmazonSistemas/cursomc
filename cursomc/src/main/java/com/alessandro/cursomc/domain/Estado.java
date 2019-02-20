@@ -12,6 +12,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @Table(name="estado")
 public class Estado implements Serializable{
@@ -24,6 +26,7 @@ public class Estado implements Serializable{
 	private Integer id;
 	private String nome;
 	
+	@JsonBackReference //Estado NÃO serializa cidade para o ENDPOINT
 	@OneToMany(mappedBy="estado")//Quem foi o atributo (mapeamento reverso) do lado de la.
 	private List<Cidade> cidades = new ArrayList<>();
 	
