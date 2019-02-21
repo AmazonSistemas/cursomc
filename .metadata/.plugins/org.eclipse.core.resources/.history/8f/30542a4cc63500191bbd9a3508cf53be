@@ -1,0 +1,30 @@
+package com.alessandro.cursomc.domain;
+
+import com.alessandro.cursomc.domain.enums.EstadoPagamento;
+
+public class PagamentoComCartao extends Pagamento{
+
+	// Por ser uma Classe que extende Pagamento NÃO precisa do hashCode() pois ja foi realizado na classe mãe
+	
+	private static final long serialVersionUID = 1L;
+	private Integer numeroDeParcela;
+	
+	public PagamentoComCartao() {
+		
+	}
+
+	public PagamentoComCartao(Integer id, EstadoPagamento estado, Pedido pedido, Integer numeroDeParcela) {
+		super(id, estado, pedido);
+        this.numeroDeParcela = numeroDeParcela;
+	}
+
+	public Integer getNumeroDeParcela() {
+		return numeroDeParcela;
+	}
+
+	public void setNumeroDeParcela(Integer numeroDeParcela) {
+		this.numeroDeParcela = numeroDeParcela;
+	}
+	
+
+}

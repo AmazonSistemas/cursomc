@@ -1,0 +1,9 @@
+package com.alessandro.cursomc.domain;
+
+import com.alessandro.cursomc.domain.enums.EstadoPagamento;
+
+public class Pagamento {
+
+	private Integer id;
+	private EstadoPagamento estado;
+}

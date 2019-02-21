@@ -1,0 +1,7 @@
+package com.alessandro.cursomc.domain;
+
+public class PagamentoComCartao extends Pagamento{
+	
+	private Integer numeroDeParcela;
+
+}

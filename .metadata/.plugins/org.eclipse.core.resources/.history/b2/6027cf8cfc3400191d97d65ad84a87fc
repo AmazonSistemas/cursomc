@@ -1,0 +1,5 @@
+package com.alessandro.cursomc.domain;
+
+public class Pedido {
+
+}

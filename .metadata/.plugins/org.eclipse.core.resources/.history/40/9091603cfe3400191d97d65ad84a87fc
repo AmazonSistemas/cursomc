@@ -1,0 +1,9 @@
+package com.alessandro.cursomc.domain;
+
+import java.util.Date;
+
+public class PagamentoBoleto extends Pagamento{
+
+	private Date dataVencimento;
+	private Date dataPagamento;
+}

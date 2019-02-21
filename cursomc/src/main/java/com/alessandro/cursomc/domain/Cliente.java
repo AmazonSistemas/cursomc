@@ -41,7 +41,10 @@ public class Cliente implements Serializable{
 //SET não aceita repeticao dos dados
 	@ElementCollection
 	@CollectionTable(name="telefone")//Vai criar uma tabela "telefone" com as colunas "cliente_i_cliente, telefones"
-	private Set<String> telefones = new HashSet();
+	private Set<String> telefones = new HashSet<String>();
+	
+	@OneToMany(mappedBy="cliente") //Foi mapeado no PEDIDO com esse nome de atributo 
+	private List<Pedido> pedidos = new ArrayList<>();
 	
 	public Cliente() {
 		
@@ -135,6 +138,14 @@ public class Cliente implements Serializable{
 	public void setTelefones(Set<String> telefones) {
 		this.telefones = telefones;
 	}
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(List<Pedido> pedidos) {
+		this.pedidos = pedidos;
+	}
+
 
 
 }

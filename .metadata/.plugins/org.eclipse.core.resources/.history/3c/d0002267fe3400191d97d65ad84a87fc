@@ -1,0 +1,27 @@
+package com.alessandro.cursomc.domain;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.alessandro.cursomc.domain.enums.EstadoPagamento;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
+@Entity
+@Table(name="pagamento")
+public class Pagamento {
+
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="i_pagamento")
+	private Integer id;
+	private EstadoPagamento estado;
+	
+	@JsonBackReference
+	private Pedido pedido;
+	
+}
