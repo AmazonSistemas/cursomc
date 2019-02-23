@@ -26,7 +26,7 @@ public class Categoria implements Serializable{
 	private Integer id;
 	private String nome;
 	
-	@JsonManagedReference   //O lado que quer que venha os objetos associados, no outro lado use "@JsonBackReference"
+	@JsonManagedReference   //O lado que quer que venha os objetos associados, no outro lado use "@JsonBackReference" (Produto)
 	@ManyToMany(mappedBy="categorias")  //Basta fazer apenas em um lado, e aqui apontar para o atributo de PRODUTO "categorias" 
 	private List<Produto> produtos = new ArrayList<>();//Categoria tem varios produtos e o nome "produtos" tem que ser igual ao da documentacao UML
 	

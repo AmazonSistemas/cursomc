@@ -1,0 +1,16 @@
+package com.alessandro.cursomc.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="item_pedido")
+public class ItemPedido implements Serializable{
+//Tenho que criara um classe (ItemPedidoPK) que é a chave composta contendo as duas outras classes(Produto e Pedido)
+	private Double desconto;
+	private Integer quantidade;
+	private Double preco;
+	
+}

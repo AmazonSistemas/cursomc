@@ -2,6 +2,8 @@ package com.alessandro.cursomc.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -11,6 +13,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -37,6 +40,12 @@ public class Pedido implements Serializable{
 	@JoinColumn(name="i_endereco_de_entrega")
 	private Endereco enderecoEntrega;
 
+	//Pedido tem um conjunto de ItemPedido (embora no diagrama esteja apontando para Produto, considera que é ItemPedido).
+	//Colocado SET pois a linguagem JAVA vai garantir que NÃO terá ItemPedido repetido, tem que colocar essa mesma declaracao no Produto
+	
+	@OneToMany(mappedBy="id.pedido")  //Mapeamento inverso do ItemPedido
+	private Set<ItemPedido> itens = new HashSet<>();
+	
 	//Quanto for UM pra UM e para trabalhar independente, o Pagamento nao entra no construtor
 	public Pedido(Integer id, Date instante, Cliente cliente, Endereco enderecoEntrega) {
 		super();
@@ -100,6 +109,12 @@ public class Pedido implements Serializable{
 	}
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
+	}
+	public Set<ItemPedido> getItens() {
+		return itens;
+	}
+	public void setItens(Set<ItemPedido> itens) {
+		this.itens = itens;
 	}
 	
 }
