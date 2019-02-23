@@ -18,6 +18,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "produto")
@@ -41,6 +42,7 @@ public class Produto implements Serializable {
 	// para Produto, considera que é ItemPedido).
 	// Colocado SET pois a linguagem JAVA vai garantir que NÃO terá ItemPedido
 	// repetido, tem que colocar essa mesma declaracao no Produto
+	@JsonIgnore    //NÃO me intereca saber os ItemPedido a partir do Produto, e SIM do ItemPedido saber seus Produtos, por isso foi ignorado. Tbm Ignorar a lista de Pedido (getPedido)
 	@OneToMany(mappedBy="id.pedido")  //Mapeamento inverso do ItemPedido
 	private Set<ItemPedido> itens = new HashSet<>();
 
@@ -52,7 +54,9 @@ public class Produto implements Serializable {
 		this.preco = preco;
 	}
 
-//Um Produto pode puxar todos os Pedidos dele, ou seja, retorna a lista de Pedido do Produto 
+	
+//Um Produto pode puxar todos os Pedidos dele, ou seja, retorna a lista de Pedido do Produto
+	@JsonIgnore  // NÃO Serializar Pode causar Referencia Ciclicar (Expected ',' instead of 't')
 	public List<Pedido> getPedidos(){
 		List<Pedido> lista = new ArrayList<>();
 		for (ItemPedido x : itens) {

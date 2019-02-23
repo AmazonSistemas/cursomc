@@ -6,6 +6,8 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name="item_pedido")
 public class ItemPedido implements Serializable{
@@ -16,6 +18,7 @@ public class ItemPedido implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
+	@JsonIgnore //Devido a chave composta, NÃO serializa Pedido inclusive os "get" (Referencia Ciclica : Expected ',' instead of 't')
 	@EmbeddedId  // É um ID imbutido em um tipo auxiliar : É para criar a chave composta no DB
 	private ItemPedidoPK id = new ItemPedidoPK();
 	
@@ -42,7 +45,7 @@ public class ItemPedido implements Serializable{
 	public Produto getProduto() {
 		return id.getProduto();
 	}
-	
+	@JsonIgnore  //  Devido a chave composta, NÃO serializa Pedido/Prodoto (Referencia Ciclica : Expected ',' instead of 't')
 	public Pedido getPedido() {
 		return id.getPedido();
 	}

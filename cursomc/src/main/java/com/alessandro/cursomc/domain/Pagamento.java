@@ -13,6 +13,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import com.alessandro.cursomc.domain.enums.EstadoPagamento;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
 @Table(name="pagamento")
@@ -28,6 +29,7 @@ public abstract class Pagamento implements Serializable{
 	//private EstadoPagamento estado; Nao posso colocar assim pois vou gravar no banco um INTEGER
 	private Integer estado;
 
+	@JsonBackReference //Os Pagamento do Pedido NÃO seram Serializados (Assossiação de Mão Dupla)
 	@OneToOne  // Um para UM com PEDIDO
 	@JoinColumn(name="i_pedido")  //Estou informando que o i_pedido é o mesmo do PEDIDO 
 	@MapsId

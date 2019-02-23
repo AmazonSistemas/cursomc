@@ -17,6 +17,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.alessandro.cursomc.domain.enums.TipoCliente;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
@@ -43,6 +44,7 @@ public class Cliente implements Serializable{
 	@CollectionTable(name="telefone")//Vai criar uma tabela "telefone" com as colunas "cliente_i_cliente, telefones"
 	private Set<String> telefones = new HashSet<String>();
 	
+	@JsonBackReference //Os Pedidos do Cliente NÃO seram Serializados (Assossiação de Mão Dupla)
 	@OneToMany(mappedBy="cliente") //Foi mapeado no PEDIDO com esse nome de atributo 
 	private List<Pedido> pedidos = new ArrayList<>();
 	
