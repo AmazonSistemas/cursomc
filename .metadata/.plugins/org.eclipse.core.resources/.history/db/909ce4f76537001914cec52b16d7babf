@@ -1,41 +1,38 @@
 package com.alessandro.cursomc.domain;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="categoria")
-public class Categoria implements Serializable{
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
+
+@Entity
+@Table(name="cidade")
+public class Cidade implements Serializable{
+	
 
 	private static final long serialVersionUID = 1L;
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="i_categoria")
+	@Column(name="i_cidade")
 	private Integer id;
 	private String nome;
 	
-	@ManyToMany(mappedBy="categorias")  //Basta fazer apenas em um lado, e aqui apontar para o atributo de PRODUTO "categorias" 
-	private List<Produto> produtos = new ArrayList<>();//Categoria tem varios produtos e o nome "produtos" tem que ser igual ao da documentacao UML
+	@JsonManagedReference  // Cidade Serializar Estado mas estado não serialzia Cidade, para o ENDPOINT
+	@ManyToOne
+	@JoinColumn(name="i_estado")  //Noma da coluna (fk) da tabela "cidade"
+	private Estado estado;
 	
-	public Categoria() {
-		
-	}
-	public Categoria(Integer id, String nome) {
-		super();
-		this.id = id;
-		this.nome = nome;
-	}
-		
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -51,7 +48,7 @@ public class Categoria implements Serializable{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Categoria other = (Categoria) obj;
+		Cidade other = (Cidade) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
@@ -59,13 +56,15 @@ public class Categoria implements Serializable{
 			return false;
 		return true;
 	}
-	public List<Produto> getProdutos() {
-		return produtos;
+	public Cidade() {
+		
 	}
-	public void setProdutos(List<Produto> produtos) {
-		this.produtos = produtos;
+	public Cidade(Integer id, String nome, Estado estado) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.estado = estado;
 	}
-	
 	public Integer getId() {
 		return id;
 	}
@@ -78,5 +77,12 @@ public class Categoria implements Serializable{
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	public Estado getEstado() {
+		return estado;
+	}
+	public void setEstado(Estado estado) {
+		this.estado = estado;
+	}
+	
 
 }
